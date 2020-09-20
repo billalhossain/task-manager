@@ -1,0 +1,90 @@
+body{
+  background: #e6b226;
+}
+.task-container{
+  max-width: 400px;
+  background: rgb(41, 37, 37);
+  color: rgb(245, 245, 245);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  padding: 20px;
+}
+h2{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.task-list{
+  list-style: none;
+  padding: 0;
+  color: rgb(220, 220, 220);
+}
+.task-list li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(8, 8, 8,.35);
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  color: rgb(220, 220, 220);
+}
+.task-list li:last-child{
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.task-list li span{
+  flex: 1;
+}
+.task-btn{
+  padding: 6px;
+  margin: 0;
+  margin-left: 5px;
+  color: rgb(220, 220, 220);
+  background: transparent;
+}
+.task-btn:hover,
+.task-btn:focus{
+  color: #e6b226;
+}
+.taskForm{
+  margin-bottom: 40px;
+}
+.taskForm input{
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding-left: 10px;
+  background: #161616;
+  height: 40px;
+  border: 1px solid rgba(8, 8, 8,.35);
+  color: rgb(220, 220, 220);
+}
+.taskForm input:focus{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.taskForm .btn, select{
+  color: #fff;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 4px 20px;
+  background: #b1891b;
+  transition: all .3s;
+  margin-right: 10px;
+}
+select{
+  border: none;
+}
+.taskForm .btn:hover,
+.taskForm .btn:focus,
+.taskForm .btn.select{
+  color: #fff;
+  background: #e6b226;
+}
+li.complate{
+  opacity: .5;
+}
+li.complate span{
+  opacity: .6;
+  text-decoration: line-through;
+} 

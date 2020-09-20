@@ -45,7 +45,7 @@ function TaskListProvider(props) {
 
     useEffect( () => {
         localStorage.setItem('taskList', JSON.stringify(taskList))
-    })
+    }, [taskList])
     
     return (
         <TaskListContext.Provider value={{

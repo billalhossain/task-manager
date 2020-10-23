@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Task Manager
+todo/task app created by react js. 
+[Live](https://todos-manager.netlify.app/).
 ## Available Scripts
 
 In the project directory, you can run:
